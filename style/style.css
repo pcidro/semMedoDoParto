@@ -630,16 +630,27 @@ p {
   }
 
   .header {
-    display: none;
+    display: block;
   }
 
   .hero-grid {
     grid-template-columns: 1fr;
     text-align: center;
   }
+  .sobre-instrutora .destaque {
+    display: none;
+  }
 
-  .hero-image {
-    margin-top: 2rem;
+  .sobre-instrutora .texto {
+    display: none;
+  }
+
+  .sobre-instrutora .badge {
+    display: none;
+  }
+
+  .sobre-instrutora .foto-instrutora {
+    width: 90px;
   }
 }
 
