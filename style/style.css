@@ -460,7 +460,7 @@ p {
 
 .faq-item h4::after {
   content: "";
-  background-image: url("../img/icon-plus.svg");
+  background-image: url("/semMedoDoParto/img/icon-plus.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 35px;
@@ -472,7 +472,7 @@ p {
 }
 
 .faq-item h4.ativo::after {
-  background-image: url("../img/icon-minus.svg");
+  background-image: url("/semMedoDoParto/img/icon-minus.svg");
 }
 
 .resposta {
