@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -21,9 +21,11 @@
       <div class="logo">
         <img src="img/logosem.png" alt="" class="logo-img">
       </div>
-      <button class="btn btn-primary" onclick="scrollToSection('compra')">
-        Comprar Agora
-      </button>
+      <nav class="nav-menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </nav>
     </div>
   </header>
 
@@ -37,8 +39,10 @@
           <p class="subtitle">Como perder o medo e se preparar emocionalmente para o parto</p>
           <p class="description">Transforme sua ansiedade em confiança...</p>
           <div class="hero-buttons">
-            <button class="btn btn-primary" onclick="scrollToSection('beneficios')">Quero Perder o Medo</button>
-            <button class="btn btn-outline" onclick="scrollToSection('depoimentos')">Ver Depoimentos</button>
+            <a class="btn btn-primary" href="">Quero Perder o Medo</a>
+            <a href="#depoimentos" class=" btn btn-outline">Ver Depoimentos</a>
+
+
           </div>
         </div>
         <div class="hero-image">
@@ -102,54 +106,6 @@
           </article>
 
 
-        </div>
-      </div>
-    </section>
-
-    <section id="depoimentos" class="testimonials-section">
-      <div class="container">
-        <h3 class="section-title">Histórias de transformação</h3>
-        <p class="section-subtitle">Veja como outras mães superaram seus medos</p>
-
-        <div class="testimonials-grid">
-          <article class="testimonial-msg">
-            <div class="msg-header">
-              <div>
-                <h4>Maria</h4>
-                <p class="role">Mãe de primeira viagem</p>
-              </div>
-            </div>
-            <div class="msg-bubble">
-              <p>"Eu estava apavorada com a ideia do parto. O curso me deu todas as ferramentas que precisava para viver esse momento com paz e confiança. Meu filho nasceu exatamente como eu sonhei!"</p>
-              <div class="stars">⭐⭐⭐⭐⭐</div>
-            </div>
-          </article>
-
-          <article class="testimonial-msg">
-            <div class="msg-header">
-              <div>
-                <h4>Gabriela</h4>
-                <p class="role">Enfermeira e mãe</p>
-              </div>
-            </div>
-            <div class="msg-bubble">
-              <p>"Mesmo sendo da área da saúde, tinha muitos medos. As técnicas de respiração e visualização fizeram toda a diferença. Recomendo para todas as gestantes!"</p>
-              <div class="stars">⭐⭐⭐⭐⭐</div>
-            </div>
-          </article>
-
-          <article class="testimonial-msg">
-            <div class="msg-header">
-              <div>
-                <h4>Carla</h4>
-                <p class="role">Mãe de 2 filhos</p>
-              </div>
-            </div>
-            <div class="msg-bubble">
-              <p>"Na minha primeira gravidez sofri muito com ansiedade. Na segunda, fiz o curso e foi completamente diferente. Parto natural, tranquilo demais!"</p>
-              <div class="stars">⭐⭐⭐⭐⭐</div>
-            </div>
-          </article>
         </div>
       </div>
     </section>
@@ -232,8 +188,57 @@
         </div>
       </div>
     </section>
+
+    <section id="depoimentos" class="testimonials-section">
+      <div class="container">
+        <h3 class="section-title">Histórias de transformação</h3>
+        <p class="section-subtitle">Veja como outras mães superaram seus medos</p>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-msg">
+            <div class="msg-header">
+              <div>
+                <h4>Maria</h4>
+                <p class="role">Mãe de primeira viagem</p>
+              </div>
+            </div>
+            <div class="msg-bubble">
+              <p>"Eu estava apavorada com a ideia do parto. O curso me deu todas as ferramentas que precisava para viver esse momento com paz e confiança. Meu filho nasceu exatamente como eu sonhei!"</p>
+              <div class="stars">⭐⭐⭐⭐⭐</div>
+            </div>
+          </article>
+
+          <article class="testimonial-msg">
+            <div class="msg-header">
+              <div>
+                <h4>Gabriela</h4>
+                <p class="role">Enfermeira e mãe</p>
+              </div>
+            </div>
+            <div class="msg-bubble">
+              <p>"Mesmo sendo da área da saúde, tinha muitos medos. As técnicas de respiração e visualização fizeram toda a diferença. Recomendo para todas as gestantes!"</p>
+              <div class="stars">⭐⭐⭐⭐⭐</div>
+            </div>
+          </article>
+
+          <article class="testimonial-msg">
+            <div class="msg-header">
+              <div>
+                <h4>Carla</h4>
+                <p class="role">Mãe de 2 filhos</p>
+              </div>
+            </div>
+            <div class="msg-bubble">
+              <p>"Na minha primeira gravidez sofri muito com ansiedade. Na segunda, fiz o curso e foi completamente diferente. Parto natural, tranquilo demais!"</p>
+              <div class="stars">⭐⭐⭐⭐⭐</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <!-- SOBRE A INSTRUTORA -->
-    <section class="sobre-instrutora">
+    <section id="sobre" class="sobre-instrutora">
       <div class="container">
         <div class="instrutora-grid">
           <div class="foto-instrutora">
@@ -246,7 +251,7 @@
           <div class="descricao-instrutora">
             <h3>Ana Veiga - Conheça sua instrutora</h3>
             <p class="subtitulo">Psicanalista e Terapeuta materna e familiar</p>
-            <p>Sou formada em Recursos Humanos desde 2012 e, desde então, me dedico ao estudo da mente humana, desenvolvimento pessoal e autoconhecimento.
+            <p class="texto-formacao">Sou formada em Recursos Humanos desde 2012 e, desde então, me dedico ao estudo da mente humana, desenvolvimento pessoal e autoconhecimento.
 
               Troquei uma carreira estável em CLT por um sonho antigo: mergulhei na Psicanálise e iniciei minha atuação na clínica.
 
@@ -270,27 +275,28 @@
         <div class="faq-list">
           <div class="faq-item">
             <h4>O curso é adequado para mães de primeira viagem?</h4>
-            <p>Sim! O curso foi especialmente desenvolvido pensando nas necessidades de mães de primeira viagem, que naturalmente sentem mais ansiedade e medos sobre o parto.</p>
+
+            <p class="resposta">Sim! O curso foi especialmente desenvolvido pensando nas necessidades de mães de primeira viagem, que naturalmente sentem mais ansiedade e medos sobre o parto.</p>
           </div>
 
           <div class="faq-item">
             <h4>O curso substitui o acompanhamento médico?</h4>
-            <p>Não. O curso é um complemento ao seu acompanhamento médico, focado especificamente na preparação emocional e mental para o parto.</p>
+            <p class="resposta">Não. O curso é um complemento ao seu acompanhamento médico, focado especificamente na preparação emocional e mental para o parto.</p>
           </div>
 
           <div class="faq-item">
             <h4>Funciona para parto normal e cesárea?</h4>
-            <p>Sim! As técnicas de respiração, visualização e preparação emocional são benéficas independentemente do tipo de parto.</p>
+            <p class="resposta">Sim! As técnicas de respiração, visualização e preparação emocional são benéficas independentemente do tipo de parto.</p>
           </div>
 
           <div class="faq-item">
             <h4>Há alguma garantia?</h4>
-            <p>Sim! Oferecemos 7 dias de garantia incondicional. Se não ficar satisfeita, devolvemos 100% do seu investimento.</p>
+            <p class="resposta">Sim! Oferecemos 7 dias de garantia incondicional. Se não ficar satisfeita, devolvemos 100% do seu investimento.</p>
           </div>
 
           <div class="faq-item">
             <h4>Posso fazer o curso com meu parceiro?</h4>
-            <p>Claro! Incentivamos a participação do parceiro, pois o apoio emocional é fundamental durante todo o processo.</p>
+            <p class="resposta">Claro! Incentivamos a participação do parceiro, pois o apoio emocional é fundamental durante todo o processo.</p>
           </div>
         </div>
       </div>
@@ -336,7 +342,7 @@
             <img class="img-footer" src="img/logosem.png" alt="">
           </div>
           <div class="social-media">
-            <div class="contato">
+            <div id="contato" class="contato">
               <h5>Contato</h5>
               <p>📧 contato@semmedodoparto.com</p>
               <p>📞 (11) 9999-9999</p>
@@ -358,10 +364,10 @@
       </div>
     </footer>
 
+    <script src="/index.js"></script>
 
   </main>
 
-  <script src="js/script.js"></script>
 
 
 </body>
